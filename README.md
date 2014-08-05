@@ -9,10 +9,10 @@ This is the default Tomcat Servlet 6-7 with customization in CSS + ICONS
 
 ==========================================
 
-Download the file <a href="https://github.com/arannasousa/tomcat-listing-custom/blob/master/arquivos.war?raw=true">arquivos.war</a> - https://github.com/arannasousa/tomcat-listing-custom/blob/master/arquivos.war?raw=true
+Download the file "arquivos.war" - https://github.com/arannasousa/tomcat-listing-custom/blob/master/arquivos.war?raw=true
 And place in the webapps directory of your Tomcat:
 
-"<tomcat dir>/webapps/arquivos.war"
+"&lt;tomcat dir&gt;/webapps/arquivos.war"
 
 If configured by default, Tomcat will do the Deploy automatically any <file>.war in 'webapps' folder.
 
