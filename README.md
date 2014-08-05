@@ -14,4 +14,3 @@ If configured by default, Tomcat will do the Deploy automatically any <file>.war
 
     To access it: http://localhost:8080/arquivos/
 
-==========================================
