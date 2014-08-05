@@ -5,7 +5,7 @@ CSS (+mobile) - Custom Listing Tomcat 7 (deploy)
 
 This is the default Tomcat Servlet 6-7 with customization in CSS + ICONS
 
-Download the file `arquivos.war` - https://github.com/arannasousa/tomcat-listing-custom/blob/master/arquivos.war?raw=true 
+Download the file [`arquivos.war`](https://github.com/arannasousa/tomcat-listing-custom/blob/master/arquivos.war?raw=true)
 And place in the webapps directory of your Tomcat:
 
     "<tomcat dir>/webapps/arquivos.war"
