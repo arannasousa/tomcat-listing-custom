@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url("font.woff") format('woff');
+}
+body, footer {
+    font-family: Open Sans Condensed,Arial,sans-serif;
+    color: #333;
+    background-color: #e6e6e6;
+    paddin: 4pt;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+    width: auto;
+}
+table, td, th {
+    border-collapse:collapse;
+    background-color: white;
+}
+
+.titulo {
+    font-weight: normal;
+    font-size: 200%;
+    line-height: 1.5em;
+    min-height: 1.5em;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+}
+.titulo .logo {
+    height: 1.5em;
+    display: inline-block;
+}
+.titulo .texto{
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+.barra {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.5em;
+    min-height: 1.5em;
+    background-color: #e6e6e6;
+    font-size: 131%;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+    font-size: 150%;
+}
+
+.barra > div{
+    display: inline-block;
+    line-height: 1.5em;
+    min-height: 1.5em;
+}
+
+.barra .breadcrumb {
+    margin-left: 1.5em;
+}
+
+table.arquivos {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: white;
+}
+table.arquivos a{
+    text-decoration: none;
+    color: #333333;
+}
+table.arquivos td {
+    padding: 0;
+    margin: 1px 0 0 0;
+    border: 0 solid transparent;
+}
+
+table.arquivos td:first-child{
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    text-align: center;
+}
+
+table.arquivos tr ~ tr td {
+    border-top: 1px dashed #d3d3d3;
+}
+
+table.arquivos tr:hover > * {
+    background-color: #e7e8f3;
+}
+
+table.arquivos ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5pt 5pt 5pt 10pt;
+}
+table.arquivos ul .nome-arquivo{
+    font-size: 131%;
+    color: blue;
+}
+table.arquivos ul .detalhes-arquivo{
+    font-size: 100%;
+}
+table.arquivos ul .detalhes-arquivo > *{
+    margin-right: 1.5em;
+}
+
+table.arquivos ul .detalhes-arquivo .posicao{
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+table.arquivos ul .detalhes-arquivo .data{
+    font-size: 100%;
+}
+
+table.arquivos ul .detalhes-arquivo .tamanho{
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .titulo .texto { 
+	width: 100%;
+	margin-left: 2pt;
+    }
+    .barra .breadcrumb{
+	margin: 0 2pt;
+	display: block;
+    }
+}
+@media screen and (min-width: 800px) {
+    /* quebra as TR e geram duas colunas*/
+    table.arquivos{
+        clear: both;
+    }
+    table.arquivos tr {
+        width: 49%;
+        display: block;
+        float: left;
+        clear: left;
+    }
+    table.arquivos tr:nth-child(2) td{
+        border-top: none;
+    }
+    table.arquivos tr:nth-child(2n) {
+        margin-left: 1%;
+        right: 0;
+        float: right;
+        clear: right;
+    }
+    /* o que nao for a primeira td, coloca em 100% */
+    table.arquivos tr > td ~ td {
+        width: 100%;
+    }
+}
+.readme {
+    background-color: white;
+    border-top: 2px solid #d3d3d3;
+    margin: 0;
+    padding: 3em;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    min-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 130%;
+    padding: 1.5em;
+    border-top: 2px solid #d3d3d3;
+}
+.footer a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}

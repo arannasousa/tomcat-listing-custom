@@ -1,0 +1,1 @@
+Exemplo de README junto com arquivos normais
