@@ -12,9 +12,9 @@
                     Arquivos do diretório
                     <xsl:value-of select="@directory"/>
                 </title>
-                <meta content="width=device-width, initial-scale=1" name="viewport"/>
+                <!--meta content="width=device-width, initial-scale=1" name="viewport"/>
                 <link rel="stylesheet" href="{@contextPath}/statics/classe.css"/>
-                <link rel="shortcut icon" href="{@contextPath}/favicon.ico" />
+                <link rel="shortcut icon" href="{@contextPath}/favicon.ico" /-->
             </head>
             <body>
                 <div class="titulo">
