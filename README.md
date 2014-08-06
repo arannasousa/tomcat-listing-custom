@@ -14,3 +14,4 @@ If configured by default, Tomcat will do the Deploy automatically any <file>.war
 
     To access it: http://localhost:8080/arquivos/
 
+### Example [AQUI](http://arannasousa.github.io/tomcat-listing-custom/codigo-fonte/exemplo.xml)
