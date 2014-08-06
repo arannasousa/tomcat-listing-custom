@@ -3,7 +3,7 @@
                 version="1.0">
 
     <!-- EM PRODUCAO, TIRAR O COMENTARIO DA LINHA ABAIXO  -->
-    <-- <xsl:output method="xhtml" encoding="iso-8859-1" indent="no"/> -->
+    <!-- <xsl:output method="xhtml" encoding="iso-8859-1" indent="no"/> -->
 
     <xsl:template match="listing">
         <html>
